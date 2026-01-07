@@ -7,7 +7,7 @@
         menuToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             menuToggle.classList.toggle('is-active');
-            
+            //teste
             // Impede o scroll do corpo quando o menu está aberto
             document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : 'initial';
         });
